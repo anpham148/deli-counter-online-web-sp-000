@@ -15,6 +15,6 @@ def line(arr)
   end
 end
 def take_a_number(arr, name)
-  num = arr[name].to_i 
+  num = arr[name].to_i
   puts "Welcome, #{name}. You are number #{num + 1} in line."
 end
