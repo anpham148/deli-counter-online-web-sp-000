@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli =[]
 def line(arr)
-  if katz_deli.count == 0
+  if arr.count == 0
     puts  "The line is currently empty."
   else
     counter = 1
