@@ -14,7 +14,9 @@ def line(arr)
     puts str
   end
 end
+
 def take_a_number(arr, name)
+  arr.push(name)
   num = arr.find_index(name)
   puts "Welcome, #{name}. You are number #{num} in line."
 end
