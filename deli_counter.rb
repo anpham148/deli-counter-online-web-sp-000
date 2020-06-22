@@ -6,7 +6,7 @@ def line(arr)
   else
     counter = 1
     str = "The line is currently:"
-    katz_deli.each do |name|
+    arr.each do |name|
       str1 = " #{counter}. #{name}"
       str << str1
       counter += 1
