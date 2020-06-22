@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli =[]
-def line(katz_deli)
+def line(arr)
   if katz_deli.count == 0
     puts  "The line is currently empty."
   else
@@ -14,3 +14,4 @@ def line(katz_deli)
     puts str
   end
 end
+def take_a_number()
