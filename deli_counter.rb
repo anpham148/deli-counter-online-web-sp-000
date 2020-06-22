@@ -15,4 +15,7 @@ def line(arr)
   end
 end
 def take_a_number(arr, name)
+  counter = 1
+  
+  puts "Welcome, #{name}. You are number #{counter} in line."
 end
