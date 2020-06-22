@@ -11,8 +11,9 @@ def line(katz_deli)
       str1 = " #{counter}. #{name}"
       str << str1
       counter += 1
-     puts str
+
     end
+    puts str
   end
 
 end
