@@ -12,5 +12,6 @@ def line(katz_deli)
       counter += 1
     end
   end
+  puts str
   str
 end
