@@ -22,4 +22,6 @@ def take_a_number(arr, name)
 end
 
 def now_serving(arr)
+  arr.count == 0 ? "There is nobody waiting to be served!" : "Currently serving #{arr[0]}."
+  arr.delete(arr[0])
 end
