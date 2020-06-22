@@ -8,5 +8,5 @@ def line(katz_deli)
     katz_deli.each do |name|
       puts "The line is currently: #{counter}. #{name}"
     end
-    end
+  end
 end
