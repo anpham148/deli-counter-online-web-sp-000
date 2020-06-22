@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     katz_deli.each do |name|
       str = "The line is currently:"
-      str1 = "#{counter}. #{name}"
+      str1 = " #{counter}. #{name}"
       str << str1
       counter += 1
     end
