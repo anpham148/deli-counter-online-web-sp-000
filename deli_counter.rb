@@ -25,7 +25,7 @@ def now_serving(arr)
   if arr.count == 0
     puts "There is nobody waiting to be served!"
   else
-     "Currently serving #{arr[0]}."
+     puts "Currently serving #{arr[0]}."
    end
   arr.delete(arr[0])
 end
